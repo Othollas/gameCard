@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.depart h1 {
+  padding: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.depart p {
+  text-align: center;
+  padding: 10rem 5rem;
+}
+
+.card {
+  width: 100%;
+}
+.card .presentation h1 {
+  text-align: center;
+}
+.card .presentation img {
+  width: 100%;
+}
+.card .presentation {
+  width: 100%;
+}
+.card .presentation h2, .card .presentation p {
+  text-align: center;
+}
+
+.description {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 20%;
+  justify-content: center;
+}
+
+.movie {
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.movie img {
+  width: 20rem;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+}
+.movie img:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+/*# sourceMappingURL=main.css.map */
